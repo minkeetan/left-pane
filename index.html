@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple 2D Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="expandBtn" class="expand-btn">&#9776;</button>
+        <div id="leftPane" class="left-pane">
+            <button id="collapseBtn" class="collapse-btn">×</button>
+            <div class="pane-content">
+                <!-- Your left pane content goes here -->
+                <h2>Left Pane</h2>
+                <select id="subjectSelect" class="subject-select">
+                    <option value="" disabled selected>Select a subject</option>
+                    <option value="math" title="Mathematics and Advanced Calculus">Mathematics and Advanced Calculus</option>
+                    <option value="science" title="Science and Environmental Studies">Science and Environmental Studies</option>
+                    <option value="language" title="Language Arts and Literature">Language Arts and Literature</option>
+                    <option value="art" title="Art and Creative Expression">Art and Creative Expression</option>
+                </select>
+                <p>This is the content of the left pane.</p>
+            </div>
+        </div>
+        <div id="mainContent" class="main-content">
+            <div id="contentArea">
+                <!-- Default content -->
+                <h1>Welcome to Kids Education</h1>
+                <p>Select a subject from the menu to start learning!</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
